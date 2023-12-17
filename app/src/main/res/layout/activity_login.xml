@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img20023"
+    app:flow_horizontalAlign="center"
+    tools:context=".LoginActivity">
+
+    <FrameLayout
+        android:layout_width="297dp"
+        android:layout_height="378dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_corner_background"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/Widget.AppCompat.TextView.SpinnerItem"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="#ECDADA"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/userLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="120sp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="#CCBFBF"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/passLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="180sp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="#CCBFBF"
+            android:autofillHints="" />
+
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="50dp"
+            android:text="Login" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loadingAnim"
+            android:layout_width="99dp"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="50dp"
+            android:scaleX="3.0"
+            android:scaleY="3.0"
+            android:visibility="invisible"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/animation_lmexzkq2" />
+
+        <TextView
+            android:id="@+id/regBtn"
+            android:layout_width="223dp"
+            android:layout_height="31dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="15sp"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

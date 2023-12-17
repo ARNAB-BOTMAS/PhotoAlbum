@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Photo Album</string>
+    <string name="home">Home</string>
+    <string name="month">Month</string>
+    <string name="settings">Settings</string>
+    <string name="upload">Upload</string>
+    <string name="log_out">Log Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="todoN">TODO</string>
+    <string name="todoimg">TODO</string>
+    <string name="todo_img">TODO</string>
+    <string name="todo_bin">TODO</string>
+    <string name="todo_btn">TODO</string>
+    <string name="no_image_found">No Image Found</string>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
